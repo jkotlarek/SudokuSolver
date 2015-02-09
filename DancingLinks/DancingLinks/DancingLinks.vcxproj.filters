@@ -16,6 +16,9 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
+    <Text Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\ReadMe.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -24,31 +27,45 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DoublyLinkedList.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\DoublyLinkedList.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="Node.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\Header.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="Header.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\Node.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\targetver.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DancingLinks.cpp">
+    <ClCompile Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\DancingLinks.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DoublyLinkedList.cpp">
+    <ClCompile Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\DoublyLinkedList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Node.cpp">
+    <ClCompile Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\Header.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Header.cpp">
+    <ClCompile Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\Node.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\DancingLinks.vcxproj">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\DancingLinks.vcxproj.filters">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

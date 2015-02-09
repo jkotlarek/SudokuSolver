@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F5CD44A7-52F3-4BC6-AB8C-C9AE95AC0C1D}</ProjectGuid>
+    <ProjectGuid>{4D8ED967-B2C5-4038-833A-F9612B22AD8C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>DancingLinks</RootNamespace>
   </PropertyGroup>
@@ -76,24 +76,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <Text Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\ReadMe.txt" />
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DoublyLinkedList.h" />
-    <ClInclude Include="Header.h" />
-    <ClInclude Include="Node.h" />
+    <ClInclude Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\DoublyLinkedList.h" />
+    <ClInclude Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\Header.h" />
+    <ClInclude Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\Node.h" />
+    <ClInclude Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\stdafx.h" />
+    <ClInclude Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\targetver.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DancingLinks.cpp" />
-    <ClCompile Include="DoublyLinkedList.cpp" />
-    <ClCompile Include="Header.cpp" />
-    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\DancingLinks.cpp" />
+    <ClCompile Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\DoublyLinkedList.cpp" />
+    <ClCompile Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\Header.cpp" />
+    <ClCompile Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\Node.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\DancingLinks.vcxproj" />
+    <None Include="..\..\..\..\GitHub\SudokuSolver\DancingLinks\DancingLinks\DancingLinks.vcxproj.filters" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
