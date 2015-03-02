@@ -13,16 +13,16 @@ DoublyLinkedList::DoublyLinkedList(int dim1)
 	}
 
 	do {
-		current = root;
-		*currentHeader = root.right;
+		current = &root;
+		currentHeader = root.right;
 		for (int i = 0; i < 4 * dim*dim; i++) {
-			addNode(currentHeader);
+			addNode(*currentHeader);
 		}
-	} while (currentHeader != root);
+	} while (currentHeader != &root);
 
 }
 
-DoublyLinkedList::createRoot() {
+Header DoublyLinkedList::createRoot() {
 	Header *newRoot = new Header();
 	root.left = newRoot;
 	root.right = newRoot;
