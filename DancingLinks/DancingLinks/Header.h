@@ -5,6 +5,9 @@ class Header :
 {
 public:
 	int size;
+	Header *left = new Header;
+	Header *right = new Header;
+
 	Header();
 ~Header();
 };
