@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22310.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DancingLinks", "DancingLinks\DancingLinks.vcxproj", "{4D8ED967-B2C5-4038-833A-F9612B22AD8C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DancingLinks", "DancingLinks\DancingLinks.vcxproj", "{F5CD44A7-52F3-4BC6-AB8C-C9AE95AC0C1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4D8ED967-B2C5-4038-833A-F9612B22AD8C}.Debug|Win32.ActiveCfg = Debug|Win32
-		{4D8ED967-B2C5-4038-833A-F9612B22AD8C}.Debug|Win32.Build.0 = Debug|Win32
-		{4D8ED967-B2C5-4038-833A-F9612B22AD8C}.Release|Win32.ActiveCfg = Release|Win32
-		{4D8ED967-B2C5-4038-833A-F9612B22AD8C}.Release|Win32.Build.0 = Release|Win32
+		{F5CD44A7-52F3-4BC6-AB8C-C9AE95AC0C1D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F5CD44A7-52F3-4BC6-AB8C-C9AE95AC0C1D}.Debug|Win32.Build.0 = Debug|Win32
+		{F5CD44A7-52F3-4BC6-AB8C-C9AE95AC0C1D}.Release|Win32.ActiveCfg = Release|Win32
+		{F5CD44A7-52F3-4BC6-AB8C-C9AE95AC0C1D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
