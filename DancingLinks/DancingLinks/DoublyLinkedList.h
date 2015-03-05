@@ -6,14 +6,14 @@ class DoublyLinkedList
 
 public:
 	int dim;
-	Header root;
+	Header *root;
 	Node *current = new Node();
 	Header *currentHeader = new Header();
 
 	DoublyLinkedList();
 	Header createRoot();
-	Header createHeader(Node root);
-	Node addNode(Header header);
+	void createHeader(Header& root);
+	void addNode(Header& header);
 	DoublyLinkedList(int dim);
 
 
